@@ -1,0 +1,26 @@
+{
+  "name": "sboop",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": "Fred Wright",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "flow": "flow",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "^4.0.0-beta.4",
+    "optics-agent": "^1.1.7",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.0.1",
+    "babel-plugin-inline-dotenv": "^1.1.1",
+    "babel-plugin-transform-decorators": "^6.24.1",
+    "babel-plugin-transform-flow-strip-types": "^6.21.0",
+    "babel-plugin-transform-inline-environment-variables": "^0.2.0",
+    "flow-bin": "^0.56.0"
+  }
+}
