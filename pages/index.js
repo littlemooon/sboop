@@ -1,10 +1,15 @@
 // @flow
 
-import React from 'react'
-import Layout from '../components/layout'
+import App from '../components/App'
+import Header from '../components/Header'
+import Submit from '../components/Submit'
+import CrumbList from '../components/CrumbList'
+import graphql from '../lib/graphql'
 
-export default () => (
-  <Layout>
-    <div>Hello World.</div>
-  </Layout>
-)
+export default graphql(props => (
+  <App>
+    <Header pathname={props.url.pathname} />
+    <Submit />
+    <CrumbList />
+  </App>
+))

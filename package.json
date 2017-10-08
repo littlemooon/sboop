@@ -10,9 +10,13 @@
     "start": "next start"
   },
   "dependencies": {
-    "next": "^4.0.0-beta.4",
+    "graphql": "^0.11.7",
+    "isomorphic-fetch": "^2.2.1",
+    "next": "^4.0.0-beta.5",
     "optics-agent": "^1.1.7",
+    "prop-types": "^15.6.0",
     "react": "^16.0.0",
+    "react-apollo": "^1.4.16",
     "react-dom": "^16.0.0"
   },
   "devDependencies": {
